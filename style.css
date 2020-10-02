@@ -3,15 +3,16 @@ body {
   padding: 0;
 }
 main {
-  background-color: rgba(255, 0, 0, 0.479);
+  background-color: rgb(255, 255, 255);
 }
 body p{
-  margin: 2%
+  margin: 1%
 }
 
 header {
   padding: 2%;
   padding-left: 32px;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: black;
   color: white;
 }
@@ -30,7 +31,7 @@ a:hover {
 }
 
 article {
-  margin: 64px;
+  margin: 2%;
 }
 
 footer {
@@ -39,11 +40,24 @@ footer {
   text-align: center;
   padding: 32px;
 }
-
-
-
-.centered-flexbox{
+.text {
   display: flex;
+  width: 50%;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
+
 }
+.bilder {
+  display: flex;
+  flex-direction: row;
+}
+
+
+h3  {
+  padding: 2%;
+}
+
+
+
+
+
